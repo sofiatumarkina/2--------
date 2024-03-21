@@ -1,0 +1,77 @@
+.footer {
+  background-color: #1e2c30;
+  padding: 2% 15% 4% 15%;
+  color: white;
+  &__line {
+    margin-top: 3%;
+    width: 100%;
+    border: 1px solid #354e55;
+  }
+  &__icons {
+    border: #5c8692 solid 1px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    background-color: none;
+    &:hover{
+      background-color: #5c8692 ;
+    }
+  }
+  &__panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-contact {
+      margin-left: 35%;
+      display: flex;
+      justify-content: space-between;
+      gap: 4%;
+      width: 35%;
+      align-items: center;
+    }
+    &-whitetxt {
+      color: white;
+      font-size: 40px;
+    }
+    &-logo {
+      width: 65px;
+    }
+  }
+  &__conteiner {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto 25% auto;
+    align-items: baseline;
+    column-gap: 2%;
+    &-boldtext {
+      font-family: bold;
+    }
+    &-text {
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: white;
+    }
+    &-items {
+      display: grid;
+      grid-template-columns: auto;
+      text-align: left;
+    }
+  }
+}
+.end {
+  background-color: #111e22;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  &__mark::before {
+    content: "\00A9 ";
+    color: white;
+  }
+}
