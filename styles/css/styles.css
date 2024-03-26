@@ -20,6 +20,7 @@
   transition: all 0.3s;
 }
 .header__nav-icons:hover {
+  cursor: pointer;
   filter: brightness(0) saturate(100%) invert(55%) sepia(16%) saturate(745%) hue-rotate(147deg) brightness(86%) contrast(90%);
 }
 .header__banner {

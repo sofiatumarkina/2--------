@@ -18,6 +18,7 @@
     &-icons{
       transition: all 0.3s;
       &:hover{
+        cursor: pointer;
         filter: brightness(0) saturate(100%) invert(55%) sepia(16%) saturate(745%) hue-rotate(147deg) brightness(86%) contrast(90%);
       }
     }
